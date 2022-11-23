@@ -1,0 +1,256 @@
+.logo {
+  width: 70px;
+  height: 40px;
+}
+/* .navbar-toggler{
+    fill: black !important;
+} */
+.cont-nav {
+  justify-content: end;
+}
+.videopart h1 {
+  font-size: 42px;
+  color: #000;
+  font-weight: 600;
+}
+
+.brands {
+  margin-top: 100px;
+}
+
+.headingImg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  padding: 8px 10px;
+  margin: 0;
+}
+figure img {
+  height: 26px;
+  width: auto;
+}
+
+/* bg-image */
+
+.bg-image {
+  height: 700px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./img/bg-img.jpg);
+  background-size: cover;
+  margin: 100px 0;
+}
+
+.bg-img {
+  padding-top: 180px;
+}
+.bg-image h1 {
+  font-size: 40px;
+}
+.bg-image p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+.bg-image button {
+  font-size: 20px;
+}
+
+/* dev run */
+.dev-run {
+  margin-top: 150px;
+}
+.dev-run h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #000;
+}
+.dev-run p {
+  font-weight: 400;
+  font-size: 15px;
+}
+.statistic h2 {
+  font-size: 45px;
+}
+a {
+  text-decoration: none;
+}
+.card {
+  border-radius: 5px;
+  border: none;
+}
+.card-img-top {
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.about img {
+  width: 140px;
+  height: 50px;
+}
+.about-trm img {
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+  border: 4px solid #0b64c5;
+}
+.about-trm h6 {
+  font-weight: 400;
+}
+.about-trm h5 {
+  font-size: 16px;
+}
+.step {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.free button {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px 10px;
+}
+.howworks {
+  margin: 150px 0;
+}
+.roles-btn {
+  background-color: #eff5f5;
+  color: #626f7f;
+}
+.buttons {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+}
+.positions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.position {
+  text-align: center;
+}
+
+/* hiring */
+.hiring {
+  height: 300px;
+  width: auto;
+  margin-top: 100px;
+  background-color: #0052cc;
+  color: #fff;
+}
+.hiring-content {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hiring-content h2 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+.hiring-content button {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #fff;
+  color: #0052cc;
+  padding: 8px 10px;
+}
+.try:hover{
+    background-color: #fff;
+    color: #0052cc;
+}
+.icon {
+  margin-left: 3px;
+}
+
+/* footer */
+footer {
+  height: 550px;
+  margin-top: 150px;
+  background-color: #000;
+  color: #aaafb6;
+}
+
+footer a {
+  color: #aaafb6;
+}
+.footer-link a {
+  padding: 15px;
+}
+.fa-twitter {
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.footer-top{
+    padding-top: 20px;
+}
+  .footer-link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .social{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .headingImg {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .figures {
+    padding: 0 150px;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .position {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .position {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .position {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-link {
+    display: flex;
+    align-items: center;
+  }
+  .footer-link a {
+    padding: 10px 15px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  footer {
+    height: 200px;
+  }
+}
